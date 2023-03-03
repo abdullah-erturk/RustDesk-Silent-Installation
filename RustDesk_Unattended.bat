@@ -6,7 +6,7 @@ mode con:cols=50 lines=5
 title RustDesk
 mode con:cols=95 lines=20
 
-:: If you have a Rustdesk server, type the domain or ip address. Example: set domain=-host=192.168.1.1
+:: If you have a Rustdesk server, type the domain name or ip address. Example: set domain=-host=192.168.1.1
 set domain=
 
 :: If you have a Rustdesk server, type the key your server generated. Example: set key=ghtYUjykk2489=
