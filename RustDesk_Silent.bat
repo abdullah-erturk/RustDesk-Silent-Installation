@@ -23,7 +23,7 @@ echo    RustDesk
 echo.
 echo.
 
-:: Rustdesk software will be downloaded and installed as an overnight release only.
+:: Rustdesk software will be downloaded and installed as an nightly release only.
 :: You may need to manually change the github link in the script when Rustdesk releases the stable version of the software.
 echo    RustDesk downloading software, please wait...
 start /wait /min powershell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.0-x86_64-pc-windows-msvc.exe', 'rustdesk%domain%,key=%key%.exe')" >nul 2>&1
