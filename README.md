@@ -1,7 +1,8 @@
 # RustDesk Unattended Installation
-RustDesk Unattended Installation
 
-https://github.com/abdullah-erturk/RustDesk-Unattended-Installation/blob/main/Rustdesk.png
+![Rustdesk](https://github.com/abdullah-erturk/RustDesk-Unattended-Installation/blob/main/Rustdesk.png)
+
+RustDesk Unattended Installation
 
 Thanks to this script, you can install Rustdesk software unattended.
 
