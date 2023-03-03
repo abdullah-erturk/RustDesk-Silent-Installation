@@ -4,7 +4,7 @@
 
 RustDesk Github: https://github.com/rustdesk/rustdesk
 
-RustDesk Unattended Installation
+RustDesk Silent Installation
 
 Thanks to this script, you can install Rustdesk software unattended.
 
