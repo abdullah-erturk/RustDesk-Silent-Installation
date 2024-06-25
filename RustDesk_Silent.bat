@@ -57,17 +57,11 @@ for /f "tokens=1,* delims=:" %%A IN ('curl -ks https://api.github.com/repos/%git
     set url=%%B
     if not "!url:%target_name_match%=!"=="!url!" (
         curl -kOL !url! >nul 2>&1
-
-        rem Dosyanın tam adını bulma
         for /r %%F in (*%target_name_match%*) do (
             set "downloaded_file=%%~nxF"
             set "downloaded_file_path=%%F"
         )
-
-        rem Geçici dosya adını oluşturma
         set "new_filename=rustdesk%domain%,key=%key%.exe"
-
-        rem İndirilen dosyayı isimlendirme
         move "!downloaded_file_path!" "!new_filename!" >nul 2>&1
     )
 )
