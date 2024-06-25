@@ -8,6 +8,7 @@
 ÖZELLİKLER
 
 RustDesk Sessiz Kurulum Betiği
+
 Bu betik, RustDesk yazılımını otomatik ve sessiz bir şekilde kurmanıza olanak tanır. RustDesk, uzak masaüstü bağlantısı sağlayan ücretsiz ve açık kaynaklı bir yazılımdır. Bu betik sayesinde, RustDesk'i en son sürümüyle güvenle indirip kurabilirsiniz.
 
 Sessiz Kurulum: Kullanıcıya herhangi bir etkileşimde bulunmadan RustDesk yazılımını kurar.
@@ -39,6 +40,7 @@ Bu betik, Abdullah ERTÜRK tarafından hazırlanmış olup MIT Lisansı altında
 FEATURES
 
 RustDesk Silent Installation Script
+
 This script allows you to automatically and silently install RustDesk software. RustDesk is a free and open-source software that provides remote desktop connectivity. With this script, you can securely download and install RustDesk with its latest version.
 
 Silent Installation: Installs RustDesk software without any user interaction.
