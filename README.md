@@ -55,7 +55,7 @@ This script allows you to automatically and silently install **RustDesk** softwa
   - Therefore, on **Windows 8.1** and lower versions, the script installs the latest **32-bit** version of **RustDesk**.
   - For detailed information:
   - https://github.com/rustdesk/rustdesk/issues/10085
-  - https://github.com/rustdesk/rustdesk/discussions/76
+  - https://github.com/rustdesk/rustdesk/discussions/763
 
 - **Customizable Installation:** If you have a **RustDesk** server, you can specify your server address and key through the script.
 - **RustDesk Download and Installation:** The script downloads the latest version of **RustDesk** from GitHub and silently installs it once the download is complete.
