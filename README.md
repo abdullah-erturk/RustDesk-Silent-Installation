@@ -1,6 +1,6 @@
 # RustDesk Silent Installation
 
-![Rustdesk](https://github.com/abdullah-erturk/RustDesk-Unattended-Installation/blob/main/Rustdesk.jpg)
+![Rustdesk](https://github.com/abdullah-erturk/RustDesk-Unattended-Installation/blob/main/rustdesk.jpg)
 
 
      Türkçe Açıklama
