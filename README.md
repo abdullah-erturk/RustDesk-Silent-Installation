@@ -34,10 +34,6 @@ Bu betik, **RustDesk** yazılımını otomatik ve sessiz bir şekilde kurmanıza
 Bu betik, **Abdullah ERTÜRK** tarafından hazırlanmış olup **MIT Lisansı** altında lisanslanmıştır.
 
 
-LİSANS
-
-Bu betik, Abdullah ERTÜRK tarafından hazırlanmış olup MIT Lisansı altında lisanslanmıştır.
-
      English Explanation
 
 FEATURES
