@@ -15,9 +15,16 @@ Sessiz Kurulum: Kullanıcıya herhangi bir etkileşimde bulunmadan RustDesk yaz�
 
 Otomatik Güncelleme: Betik, GitHub üzerinden en son stabil sürümü otomatik olarak indirir ve kurar.
 
-Özelleştirilebilir Kurulum: RustDesk sunucunuz varsa, betik üzerinden sunucu adresinizi ve anahtarınızı tanımlayabilirsiniz.
+Rustdesk yazılımının 64 bit olan son sürümü flutter desteğinin olmaması nedeniyle Windows 8.1 ve alt sürümlerde kurulumda hata vermektedir. 
 
-curl.exe Kontrolü: Betik, önce curl.exe dosyasının sisteminizde bulunup bulunmadığını kontrol eder. Eğer bulunmuyorsa, kullanıcıyı curl.exe'yi indirmesi için yönlendirir.
+Bu nedenle Windows 8.1 ve alt sürümlerde Rustdesk yazılımının 32 bit olan son sürümü yüklenecektir. 
+
+Ayrıntılı Bilgi için:
+https://github.com/rustdesk/rustdesk/discussions/763
+https://github.com/rustdesk/rustdesk/issues/10085
+
+
+Özelleştirilebilir Kurulum: RustDesk sunucunuz varsa, betik üzerinden sunucu adresinizi ve anahtarınızı tanımlayabilirsiniz.
 
 RustDesk İndirme ve Kurulum: Betik, RustDesk'in en son sürümünü GitHub üzerinden indirir. İndirme işlemi tamamlandıktan sonra yazılımı sessizce kurar.
 
@@ -47,11 +54,17 @@ This script allows you to automatically and silently install RustDesk software. 
 
 Silent Installation: Installs RustDesk software without any user interaction.
 
-Automatic Updates: The script automatically downloads and installs the latest stable version from GitHub.
+Automatic Update: The script automatically downloads and installs the latest stable version from GitHub.
+
+The latest 64-bit version of Rustdesk software fails to install on Windows 8.1 and below due to lack of Flutter support.
+
+Therefore, the script file will install the latest 32-bit version of Rustdesk software on Windows 8.1 and below.
+
+For detailed information:
+https://github.com/rustdesk/rustdesk/discussions/763
+https://github.com/rustdesk/rustdesk/issues/10085
 
 Customizable Installation: If you have a RustDesk server, you can specify your server address and key through the script.
-
-curl.exe Check: The script first checks whether curl.exe is present on your system. If not found, it directs the user to download curl.exe.
 
 RustDesk Download and Installation: The script downloads the latest version of RustDesk from GitHub and silently installs it once the download is complete.
 
