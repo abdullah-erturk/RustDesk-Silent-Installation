@@ -5,39 +5,33 @@
 
      Türkçe Açıklama
 
-ÖZELLİKLER
+# RustDesk Sessiz Kurulum Betiği
 
-RustDesk Sessiz Kurulum Betiği
+Bu betik, **RustDesk** yazılımını otomatik ve sessiz bir şekilde kurmanıza olanak tanır. **RustDesk**, uzak masaüstü bağlantısı sağlayan ücretsiz ve açık kaynaklı bir yazılımdır. Bu betik sayesinde, **RustDesk**'i en son sürümüyle güvenle indirip kurabilirsiniz.
 
-Bu betik, RustDesk yazılımını otomatik ve sessiz bir şekilde kurmanıza olanak tanır. RustDesk, uzak masaüstü bağlantısı sağlayan ücretsiz ve açık kaynaklı bir yazılımdır. Bu betik sayesinde, RustDesk'i en son sürümüyle güvenle indirip kurabilirsiniz.
+## Özellikler
 
-Sessiz Kurulum: Kullanıcıya herhangi bir etkileşimde bulunmadan RustDesk yazılımını kurar.
+- **Sessiz Kurulum:** Kullanıcıya herhangi bir etkileşimde bulunmadan **RustDesk** yazılımını kurar.
+- **Otomatik Güncelleme:** Betik, GitHub üzerinden en son stabil sürümü otomatik olarak indirir ve kurar.
+- **64-bit ve 32-bit Desteği:** 
+  - **64-bit** sürümü, **Flutter** desteğinin olmaması nedeniyle Windows 8.1 ve alt sürümlerde kurulumda hata verebilir.
+  - Bu nedenle, **Windows 8.1** ve alt sürümlerde betik, **RustDesk**'in 32-bit olan son sürümünü indirip kuracaktır.
+- **Özelleştirilebilir Kurulum:** RustDesk sunucunuz varsa, betik üzerinden sunucu adresinizi ve anahtarınızı tanımlayabilirsiniz.
+- **RustDesk İndirme ve Kurulum:** Betik, **RustDesk**'in en son sürümünü GitHub üzerinden indirir. İndirme işlemi tamamlandıktan sonra yazılımı sessizce kurar.
+- **Özelleştirme Seçenekleri:** Eğer bir **RustDesk** sunucunuz varsa, betik üzerinde sunucu adresinizi (domain) ve sunucunuzun ürettiği anahtarı (key) belirterek RustDesk'i bu sunucuya bağlamanızı sağlar.
 
-Otomatik Güncelleme: Betik, GitHub üzerinden en son stabil sürümü otomatik olarak indirir ve kurar.
+## Kurulum Adımları
 
-Rustdesk yazılımının 64 bit olan son sürümü flutter desteğinin olmaması nedeniyle Windows 8.1 ve alt sürümlerde kurulumda hata vermektedir. 
+1. Betiği çalıştırarak, **RustDesk** yazılımının indirilmesini ve kurulmasını sağlayın.
+2. Kurulum tamamlandığında, otomatik olarak bir kısayol oluşturulacak ve programı başlatabileceksiniz.
 
-Bu nedenle betik dosyası Windows 8.1 ve alt sürümlerde Rustdesk yazılımının 32 bit olan son sürümü yüklenecektir. 
+## Bağlantılar
 
-Ayrıntılı Bilgi için:
-https://github.com/rustdesk/rustdesk/discussions/763
-https://github.com/rustdesk/rustdesk/issues/10085
+- **RustDesk Projesi:** [RustDesk GitHub](https://github.com/rustdesk/rustdesk)
 
+## Lisans
 
-Özelleştirilebilir Kurulum: RustDesk sunucunuz varsa, betik üzerinden sunucu adresinizi ve anahtarınızı tanımlayabilirsiniz.
-
-RustDesk İndirme ve Kurulum: Betik, RustDesk'in en son sürümünü GitHub üzerinden indirir. İndirme işlemi tamamlandıktan sonra yazılımı sessizce kurar.
-
-Özelleştirme Seçenekleri: Eğer bir RustDesk sunucunuz varsa, betik üzerinde sunucu adresinizi (domain) ve sunucunuzun ürettiği anahtarı (key) belirterek RustDesk'i bu sunucuya bağlamanızı sağlar.
-
-KURULUM ADIMLARI
-
-Betiği çalıştırarak, RustDesk yazılımının indirilmesini ve kurulmasını sağlayın.
-Kurulum tamamlandığında, otomatik olarak bir kısayol oluşturulacak ve programı başlatabileceksiniz.
-
-BAĞLANTILAR
-
-RustDesk Projesi: https://github.com/rustdesk/rustdesk
+Bu betik, **Abdullah ERTÜRK** tarafından hazırlanmış olup **MIT Lisansı** altında lisanslanmıştır.
 
 
 LİSANS
