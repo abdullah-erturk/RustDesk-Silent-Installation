@@ -6,6 +6,8 @@
      Türkçe Açıklama
 
 <details>
+
+
 # RustDesk Sessiz Kurulum Betiği
 
 
