@@ -16,6 +16,10 @@ Bu betik, **RustDesk** yazılımını otomatik ve sessiz bir şekilde kurmanıza
 - **64-bit ve 32-bit Desteği:** 
   - **64-bit** sürümü, **Flutter** desteğinin olmaması nedeniyle Windows 8.1 ve alt sürümlerde kurulumda hata verebilir.
   - Bu nedenle, **Windows 8.1** ve alt sürümlerde betik, **RustDesk**'in 32-bit olan son sürümünü indirip kuracaktır.
+  - Ayrıntılı bilgi için:
+  - https://github.com/rustdesk/rustdesk/issues/10085
+  - https://github.com/rustdesk/rustdesk/discussions/763
+
 - **Özelleştirilebilir Kurulum:** RustDesk sunucunuz varsa, betik üzerinden sunucu adresinizi ve anahtarınızı tanımlayabilirsiniz.
 - **RustDesk İndirme ve Kurulum:** Betik, **RustDesk**'in en son sürümünü GitHub üzerinden indirir. İndirme işlemi tamamlandıktan sonra yazılımı sessizce kurar.
 - **Özelleştirme Seçenekleri:** Eğer bir **RustDesk** sunucunuz varsa, betik üzerinde sunucu adresinizi (domain) ve sunucunuzun ürettiği anahtarı (key) belirterek RustDesk'i bu sunucuya bağlamanızı sağlar.
