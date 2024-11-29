@@ -51,6 +51,7 @@ Bu betik, **Abdullah ERTÜRK** tarafından hazırlanmış olup **MIT Lisansı** 
 
 
      English Explanation
+<details>
 
 # RustDesk Silent Installation Script
 
@@ -91,3 +92,4 @@ If you do not change these parts at all, the RustDesk public server will be used
 ## License
 
 This script is authored by **Abdullah ERTÜRK** and licensed under the **MIT License**.
+</details>
