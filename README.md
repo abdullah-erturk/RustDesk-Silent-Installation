@@ -23,6 +23,14 @@ Bu betik, **RustDesk** yazılımını otomatik ve sessiz bir şekilde kurmanıza
 - **Özelleştirilebilir Kurulum:** RustDesk sunucunuz varsa, betik üzerinden sunucu adresinizi ve anahtarınızı tanımlayabilirsiniz.
 - **RustDesk İndirme ve Kurulum:** Betik, **RustDesk**'in en son sürümünü GitHub üzerinden indirir. İndirme işlemi tamamlandıktan sonra yazılımı sessizce kurar.
 - **Özelleştirme Seçenekleri:** Eğer bir **RustDesk** sunucunuz varsa, betik üzerinde sunucu adresinizi (domain) ve sunucunuzun ürettiği anahtarı (key) belirterek RustDesk'i bu sunucuya bağlamanızı sağlar.
+- **Betik dosyasındaki 
+
+"set domain=" ve "set key="
+
+değişkenlerine kendi sunucunuza ait bilgileri ekleyin.
+
+Bu kısımları hiç değiştirmezseniz RsutDesk public server kullanılacaktı
+
 
 ## Kurulum Adımları
 
