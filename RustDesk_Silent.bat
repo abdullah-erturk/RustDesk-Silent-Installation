@@ -3,7 +3,7 @@
 	:: INFO:
 
 	:: RustDesk Silent Installation
-	:: Copyright (C) 2024 Abdullah ERTšRK
+	:: Copyright (C) 2024 Abdullah ERTURK
 	:: https://github.com/abdullah-erturk/RustDesk-Silent-Installation
 
 	:: RustDesk Github Link: https://github.com/rustdesk/rustdesk
