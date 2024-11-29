@@ -17,7 +17,7 @@ Otomatik Güncelleme: Betik, GitHub üzerinden en son stabil sürümü otomatik 
 
 Rustdesk yazılımının 64 bit olan son sürümü flutter desteğinin olmaması nedeniyle Windows 8.1 ve alt sürümlerde kurulumda hata vermektedir. 
 
-Bu nedenle Windows 8.1 ve alt sürümlerde Rustdesk yazılımının 32 bit olan son sürümü yüklenecektir. 
+Bu nedenle betik dosyası Windows 8.1 ve alt sürümlerde Rustdesk yazılımının 32 bit olan son sürümü yüklenecektir. 
 
 Ayrıntılı Bilgi için:
 https://github.com/rustdesk/rustdesk/discussions/763
