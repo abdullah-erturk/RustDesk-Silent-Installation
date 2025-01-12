@@ -1,3 +1,5 @@
+https://buymeacoffee.com/abdullaherturk
+
 # RustDesk Silent Installation
 
 ![Rustdesk](https://github.com/abdullah-erturk/RustDesk-Unattended-Installation/blob/main/rustdesk.jpg)
