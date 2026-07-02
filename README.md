@@ -10,10 +10,6 @@
 
 <details>
 
-
-# RustDesk Sessiz Kurulum Aracı (Hepsi Bir Arada)
-
-
 Bu betik, **RustDesk** yazılımının en güncel sürümünü GitHub üzerinden otomatik olarak bulup, işletim sisteminizin mimarisine en uygun sürümü indirerek **sessiz (katılımsız)** bir şekilde kurmanıza olanak tanır. 
 
 **RustDesk**, uzak masaüstü bağlantısı sağlayan ücretsiz ve açık kaynaklı bir yazılımdır.
@@ -49,8 +45,6 @@ Bu betik, **Abdullah ERTÜRK** tarafından hazırlanmış olup **MIT Lisansı** 
 
      English Explanation
 <details>
-
-# RustDesk Silent Installation AIO Tool
 
 This script allows you to automatically and silently install the latest version of **RustDesk** software by fetching it directly from GitHub and downloading the most appropriate version for your operating system's architecture.
 
