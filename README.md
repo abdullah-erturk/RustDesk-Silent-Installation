@@ -2,6 +2,10 @@
 
 # RustDesk Silent Installation AIO Tool
 
+## Download Link:
+
+[![Stable?](https://img.shields.io/badge/Release-v1.svg?style=flat)](https://github.com/abdullah-erturk/RustDesk-Silent-Installation/archive/refs/heads/main.zip)
+
 ![Rustdesk](https://github.com/abdullah-erturk/RustDesk-Unattended-Installation/blob/main/rustdesk1.jpg)
 ![Rustdesk](https://github.com/abdullah-erturk/RustDesk-Unattended-Installation/blob/main/rustdesk2.jpg)
 
